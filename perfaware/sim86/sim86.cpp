@@ -102,6 +102,8 @@ static void DisAsm8086(u32 DisAsmByteCount, segmented_access DisAsmStart)
             }
             
             PrintInstruction(Instruction, stdout);
+
+            // Is this where I would put my simulated memory?
             printf("\n");
         }
         else
