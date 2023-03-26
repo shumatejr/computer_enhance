@@ -121,6 +121,7 @@ int main(int ArgCount, char **Args)
     {
         if(ArgCount > 1)
         {
+            // Check for execution flag and do something different?
             for(int ArgIndex = 1; ArgIndex < ArgCount; ++ArgIndex)
             {
                 char *FileName = Args[ArgIndex];
